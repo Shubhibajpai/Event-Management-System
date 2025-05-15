@@ -1,0 +1,75 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.form
+{
+    background-color: rgb(224, 221, 216);
+    border-radius: 18px;
+    width: 350px;
+    height: 380px;
+    /* box-shadow: 10px 10px lightgray; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 70px;
+}
+.head
+{
+ width: 200px;
+ height: 40px;
+ color: black;
+ border-radius: 5px;
+ text-align: center;
+ margin-left: 80px;
+ padding-top: 8px;
+ font-size: 40px;
+ /* font-weight: bold; */
+ 
+}
+.label
+{
+    font-size: larger;
+    font-weight: 100px;
+    display: flex;
+    margin-left: 40px;
+}
+.btn-login
+{
+    width: 190px;
+    height: 33px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.input1{
+    width: 290px;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    font-size: medium;
+    border: white;
+    border-radius: 6px;
+    border: 2px solid wheat;
+}
+.btn-login:hover{
+    background-color: rgb(168, 156, 179);
+}
+.para
+{
+    font-size:larger;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.para a
+{
+  font-weight:lighter;
+  font-size:large;
+  color: blue;
+}

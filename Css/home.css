@@ -1,0 +1,76 @@
+.imgcontainer img{
+    width: 98vw;
+}
+.container{
+    /* background-color: rgb(187, 180, 180); */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 180px;
+    left: 310px;
+    width: 70vw;
+   
+}
+.container .heading{
+    margin: 30px 2px;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+.container p{
+    margin: 12px 87px;
+    color: white;
+    font-size: 22px;
+}
+.loginlink{
+    display: flex;
+    margin: 37px 50px;
+}
+.loginlink li{
+    list-style: none;
+}
+.loginlink li a{
+    text-decoration: none;
+    font-size: 20px;
+    /* background-color: rgb(189, 194, 192); */
+    /* border-radius: 12px; */
+    padding: 10px 18px;
+}
+/* .loginlink li a:hover{
+    background-color: rgb(171, 177, 175);   
+} */
+.btnlink{
+    /* margin: 2px 12px; */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color:  #75b2f3; ;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+.btnlink:hover {
+    background-color: #3f91e9;;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{ 
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
+.btn{
+    padding: 12px 14px;
+    border-radius: 11px;
+}
+

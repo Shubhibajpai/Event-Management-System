@@ -1,0 +1,156 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.main{
+    /* background-color: pink; */
+    background-color: rgb(224, 221, 216);
+    color: black;
+    height: 300px;
+    width:auto;
+    display: flex;
+    /* border-bottom: 3px solid black; */
+}
+.div1{
+    color: black;
+    font-size: 55px;
+    width: 350px;
+    font-weight: 600;
+}
+.div2{
+    color: rgb(88, 88, 88);
+    font-size: 28px;
+    width: 250px;
+    font-weight: bolder;
+}
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: 600px;
+    width: 50vw;
+    border: 6px solid  white;
+    border-radius: 2px;
+    margin-top: 28px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.head1{
+    display: flex;
+}
+.icon i {
+    color: black; 
+    font-size: 5em; 
+    margin-right: 10px; 
+  }
+.head12{
+    color: black;
+    font-size: 61px;
+    text-align: center;
+    /* font-weight: 200px; */
+    /* margin-left:19px ; */
+    /* margin-top: 10px; */
+    /* padding-top: 35px; */
+}
+
+.input-field{
+    width: 37vw;
+    height: 40px;
+    border-color:1px solid gray;
+    margin-left: 50px;
+    border-radius: 3px;
+    font-size: large;
+    color: gray;
+    padding: 2px 11px;
+}
+.input-field-msg{
+    width: 37vw;
+    height: 80px;
+    border-color:1px solid gray;
+    margin-left: 50px;
+    border-radius: 3px;
+    font-size: large;
+    color: gray;
+    padding: 2px 11px;
+}
+.btn-field{
+    width: 39vw;
+    height: 45px;
+    margin-left: 50px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 2px 11px;
+    cursor: pointer;
+}
+.form-footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    /* background-color: rgb(136, 136, 156); */
+    display: flex;
+}
+.footer1{
+    width: 400px;
+    height: 170px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.footer1 h1{
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: 200;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.footer1 h2{
+    margin-left: 20px;
+    font-size: 40px;
+    font-style: normal;
+}
+.footer1 p{
+    font-size: larger;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.footer2{
+    width: 400px;
+    height: 170px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.footer2 h1{
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: 200;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.footer2 p{
+    font-size: larger;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.footer3{
+    width: 400px;
+    height: 170px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.footer3 h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: 200;
+    font-weight: bolder;
+}
+
+.footer3 p{
+    font-size: larger;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-left: 30px;
+}

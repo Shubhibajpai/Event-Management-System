@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    width: 20vw;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    margin: 27px 45px;
+}
+.img img{
+    width: 19vw;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.img img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+    cursor: pointer;
+}
+.box p{
+    text-align: center;
+    font-size: 26px;
+    margin: 8px 2px;
+    
+}
